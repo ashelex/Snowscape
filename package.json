@@ -4,7 +4,7 @@
   "description": "<p align=\"center\">    <img alt=\"snowscape\" src=\"https://bfrc.zdngames.tk/logo.png\" width=\"256\" height=\"256\">    <br>    <b>Snowscape</b> </p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc --project tsconfig.json && node --enable-source-maps dist/App.js"
   },
   "author": "",
   "license": "ISC",
